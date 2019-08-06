@@ -1,3 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Email</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Email</shortDescription>
+        <value>www.sit.com</value>
+    </labels>
+    <labels>
+        <fullName>Sample</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Sample</shortDescription>
+        <value>Test 1</value>
+    </labels>
+    <labels>
+        <fullName>Sample_2</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Sample 2</shortDescription>
+        <value>Sample 2</value>
+    </labels>
+</CustomLabels>

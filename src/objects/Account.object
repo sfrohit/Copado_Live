@@ -78,6 +78,7 @@
     </fields>
     <fields>
         <fullName>Active__c</fullName>
+        <description>Sample update for deletion</description>
         <externalId>false</externalId>
         <label>Active</label>
         <required>false</required>
@@ -138,6 +139,15 @@
                 </value>
             </valueSetDefinition>
         </valueSet>
+    </fields>
+    <fields>
+        <fullName>DE_Date__c</fullName>
+        <description>this field is used for rollback changes</description>
+        <externalId>false</externalId>
+        <label>DE Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Date</type>
     </fields>
     <fields>
         <fullName>DandbCompanyId</fullName>
@@ -236,6 +246,7 @@
     </fields>
     <fields>
         <fullName>SLA__c</fullName>
+        <description>Added Description for deployment</description>
         <externalId>false</externalId>
         <label>SLA</label>
         <required>false</required>
@@ -334,6 +345,13 @@
     </fields>
     <listViews>
         <fullName>AllAccounts</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.SITE</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE</columns>
+        <columns>ACCOUNT.PHONE1</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>DE_Date__c</columns>
         <filterScope>Everything</filterScope>
         <label>All Accounts</label>
     </listViews>

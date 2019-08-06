@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Standard Room</fullName>
+        <default>false</default>
+        <label>Standard Room</label>
+    </customValue>
+    <customValue>
+        <fullName>Queen Size Room</fullName>
+        <default>false</default>
+        <label>Queen Size Room</label>
+    </customValue>
+    <customValue>
+        <fullName>King Size Room</fullName>
+        <default>false</default>
+        <label>King Size Room</label>
+    </customValue>
+    <customValue>
+        <fullName>One Bed Room Suite</fullName>
+        <default>false</default>
+        <label>One Bed Room Suite</label>
+    </customValue>
+    <customValue>
+        <fullName>Two Bed Room Suite</fullName>
+        <default>false</default>
+        <label>Two Bed Room Suite</label>
+    </customValue>
+    <masterLabel>RoomType</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

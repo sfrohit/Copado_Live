@@ -179,7 +179,11 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
+    <tabs>Hotel__c</tabs>
     <workspaceConfig>
+        <mappings>
+            <tab>Hotel__c</tab>
+        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>
