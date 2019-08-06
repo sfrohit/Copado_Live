@@ -78,6 +78,7 @@
     </fields>
     <fields>
         <fullName>Active__c</fullName>
+        <description>Testing Copado Deployments</description>
         <externalId>false</externalId>
         <label>Active</label>
         <required>false</required>
@@ -113,6 +114,7 @@
     </fields>
     <fields>
         <fullName>CustomerPriority__c</fullName>
+        <description>Testing Copado Deployments 2</description>
         <externalId>false</externalId>
         <label>Customer Priority</label>
         <required>false</required>
@@ -334,6 +336,17 @@
     </fields>
     <listViews>
         <fullName>AllAccounts</fullName>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>ACCOUNT.SITE</columns>
+        <columns>ACCOUNT.ADDRESS1_STATE</columns>
+        <columns>ACCOUNT.PHONE1</columns>
+        <columns>ACCOUNT.TYPE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>ACCOUNT.ADDRESS1_STREET</columns>
+        <columns>ACCOUNT.ADDRESS1_CITY</columns>
+        <columns>ACCOUNT.ADDRESS2_STREET</columns>
+        <columns>SLASerialNumber__c</columns>
+        <columns>ACCOUNT.SIC</columns>
         <filterScope>Everything</filterScope>
         <label>All Accounts</label>
     </listViews>

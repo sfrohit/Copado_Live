@@ -44,12 +44,12 @@
                 <outputField>MailingPostalCode</outputField>
             </mappingFields>
             <mappingFields>
-                <inputField>Phone</inputField>
-                <outputField>Phone</outputField>
-            </mappingFields>
-            <mappingFields>
                 <inputField>Title</inputField>
                 <outputField>Title</outputField>
+            </mappingFields>
+            <mappingFields>
+                <inputField>Phone</inputField>
+                <outputField>Phone</outputField>
             </mappingFields>
             <outputObject>Contact</outputObject>
         </objectMapping>
