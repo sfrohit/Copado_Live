@@ -1,12 +1,13 @@
 Public class AccountCreation {
-Public Account createAccount(String name){
-//comment 4
-Account a= new Account();
-//comment 2
-a.Name = name; insert a;
+Public Account createAccount(String name, Account a){
+//comment 1
+a.Description = 'Default Account Description';
+// if statement
+if(a.Description!=null)return a;
+else a.Description = 'Default Description';
 
-return a;
-//comment 3
+return null;
+
 }
 
 }
