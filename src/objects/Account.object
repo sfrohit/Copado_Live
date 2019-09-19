@@ -183,15 +183,6 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
-        <fullName>Number_of_Rooms__c</fullName>
-        <externalId>false</externalId>
-        <label>Number of Rooms</label>
-        <summarizedField>Hotel__c.No_of_Rooms__c</summarizedField>
-        <summaryForeignKey>Hotel__c.Account__c</summaryForeignKey>
-        <summaryOperation>sum</summaryOperation>
-        <type>Summary</type>
-    </fields>
-    <fields>
         <fullName>NumberofLocations__c</fullName>
         <externalId>false</externalId>
         <label>Number of Locations</label>
