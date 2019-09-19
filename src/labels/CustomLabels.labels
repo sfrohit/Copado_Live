@@ -21,4 +21,11 @@
         <shortDescription>Sample 2</shortDescription>
         <value>Sample 2</value>
     </labels>
+    <labels>
+        <fullName>Test_Custom_Label</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Test Custom Label</shortDescription>
+        <value>Sample with destructive</value>
+    </labels>
 </CustomLabels>
