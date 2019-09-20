@@ -163,19 +163,6 @@
     <eventType n1:nil="true" />
     <externalSharingModel n1:nil="true" />
     <fields>
-        <fullName>Accountww__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
-        <externalId>false</externalId>
-        <label>NewAccount</label>
-        <referenceTo>Account</referenceTo>
-        <relationshipLabel>Hotels (Account)</relationshipLabel>
-        <relationshipName>Hotels1</relationshipName>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>Address__c</fullName>
         <externalId>false</externalId>
         <label>Address</label>
