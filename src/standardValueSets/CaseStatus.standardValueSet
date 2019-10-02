@@ -14,12 +14,6 @@
         <closed>false</closed>
     </standardValue>
     <standardValue>
-        <fullName>Escalated</fullName>
-        <default>false</default>
-        <label>Escalated</label>
-        <closed>false</closed>
-    </standardValue>
-    <standardValue>
         <fullName>Closed</fullName>
         <default>false</default>
         <label>Closed</label>
