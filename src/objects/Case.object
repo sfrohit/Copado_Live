@@ -409,10 +409,6 @@
                 <fullName>Phone</fullName>
                 <default>false</default>
             </values>
-            <values>
-                <fullName>Web</fullName>
-                <default>false</default>
-            </values>
         </picklistValues>
         <picklistValues>
             <picklist>PotentialLiability__c</picklist>
