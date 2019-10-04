@@ -290,6 +290,18 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>SIT_Field__c</fullName>
+        <externalId>false</externalId>
+        <label>SIT Field</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>SLAViolation__c</fullName>
         <externalId>false</externalId>
         <label>SLA Violation</label>
